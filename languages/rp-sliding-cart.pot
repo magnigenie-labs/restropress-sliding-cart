@@ -1,0 +1,80 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Restropress - Sliding Cart\n"
+"POT-Creation-Date: 2023-09-22 18:43+0530\n"
+"PO-Revision-Date: 2023-09-22 18:43+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: restropress-sliding-cart.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-restropress-sliding-cart-admin.php:119
+#: admin/class-restropress-sliding-cart-admin.php:151
+msgid "Sliding Cart Settings"
+msgstr ""
+
+#: admin/class-restropress-sliding-cart-admin.php:127
+msgid "Enable Sliding Cart"
+msgstr ""
+
+#: admin/class-restropress-sliding-cart-admin.php:128
+msgid "Enable or disable the Sliding Cart feature."
+msgstr ""
+
+#: admin/class-restropress-sliding-cart-admin.php:135
+msgid "Slider Cart Window Width"
+msgstr ""
+
+#: admin/class-restropress-sliding-cart-admin.php:136
+msgid "Specify the width of the Sliding Cart window."
+msgstr ""
+
+#: admin/class-restropress-sliding-cart-admin.php:142
+msgid "Total Items Badge Color"
+msgstr ""
+
+#: admin/class-restropress-sliding-cart-admin.php:143
+msgid "Choose the color of the total items badge."
+msgstr ""
+
+#. translators: %1$s: plugin link for restropress
+#: includes/class-restropress-sliding-cart-loader.php:143
+#, php-format
+msgid ""
+" Restropress sliding_cart<a href=\"%1$s\" target=\"_blank\"> RestroPress </"
+"a> plugin to be installed. Please install and activate it"
+msgstr ""
+
+#: includes/class-restropress-sliding-cart-loader.php:149
+#, php-format
+msgid "<a href=\"%1$s\">Settings</a>"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Restropress - Sliding Cart"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Through this plugin you can able to add a Sliding Cart For RestroPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "magnigenie"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://restropress.com/"
+msgstr ""

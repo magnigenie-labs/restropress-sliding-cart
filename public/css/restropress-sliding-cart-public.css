@@ -1,0 +1,77 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ /* Floating Cart Icon Styles */
+ /* Style the cart icon button */
+ 
+ @font-face {
+  font-family: 'icomoon';
+  src:  url('./fonts/icomoon.eot?ui1rhn');
+  src:  url('./fonts/icomoon.eot?ui1rhn#iefix') format('embedded-opentype'),
+    url('./fonts/icomoon.ttf?ui1rhn') format('truetype'),
+    url('./fonts/icomoon.woff?ui1rhn') format('woff'),
+    url('./fonts/icomoon.svg?ui1rhn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+} 
+.rpress-icon-cart:before {
+  font-family: 'icomoon' !important;
+  /* speak: never; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  margin: 10px;
+  padding: 17px; /* Increased padding to make it more rounded */
+  border-radius: 50%; /* Make it a circle by setting border-radius to 50% */
+  background-color: aqua; 
+  cursor: pointer;
+
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e93a";
+  position: fixed; /* or use absolute if you want it positioned relative to a parent element */
+  bottom:37px; /* Adjust the top position as needed */
+  right: 500px; /* Adjust the right position as needed */
+  z-index: 9999;
+
+} 
+.rpress-sidebar-cart {
+  position: fixed;
+  top: 0;
+  right: -50px; /* Initially hidden to the right */
+  height: 100%;
+  width: 100%; /* Adjust the width as needed */
+  background-color: #43939a; /* Adjust the background color as needed */
+  color: #f3ebeb;
+  overflow-y: auto;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  transition: right 0.5s ease;
+}
+
+.rpress-sidebar-cart.show {
+  right: 0; /* Slide in to the right */
+  
+}
+#rpress-floating-cart-icon{
+  position: fixed; 
+  bottom: 50px; 
+  right: 500px;
+  z-index: 9999;
+  width: 5%;
+  height: 42px;
+  border-radius: 40%;
+  padding-left: -1%;
+  
+}
+
+@media (min-width: 768px) { */
+  /* Add styles specific to desktop here */ 
+   .rpress-mobile-sliding-cart-icons {
+    display: none!important;
+  }
+}
